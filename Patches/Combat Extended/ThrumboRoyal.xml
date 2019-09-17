@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Patch>
+
+  <Operation Class='PatchOperationFindMod'>
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+
+    <match Class='PatchOperationSequence'>
+      <success>Always</success>
+
+      <operations>
+        <!-- Add Class -->
+        <li Class='PatchOperationAddModExtension'>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalF' or defName = 'OG_ThrumboRoyalM']</xpath>
+
+          <value>
+            <li Class='CombatExtended.RacePropertiesExtensionCE'>
+              <bodyShape>Birdlike</bodyShape>
+            </li>
+          </value>
+        </li>
+
+        <li Class='PatchOperationAdd'>
+          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/statBases</xpath>
+
+          <value>
+            <MeleeDodgeChance>0.09</MeleeDodgeChance>
+            <MeleeCritChance>0.76</MeleeCritChance>
+            <MeleeParryChance>0.45</MeleeParryChance>
+          </value>
+        </li>
+
+        <li Class='PatchOperationReplace'>
+          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/statBases/ArmorRating_Blunt</xpath>
+
+          <value>
+            <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+          </value>
+        </li>
+
+        <li Class='PatchOperationReplace'>
+          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/statBases/ArmorRating_Sharp</xpath>
+
+          <value>
+            <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+          </value>
+        </li>
+
+        <li Class='PatchOperationReplace'>
+          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/race/baseHealthScale</xpath>
+
+          <value>
+            <baseHealthScale>5</baseHealthScale>
+          </value>
+        </li>
+
+        <!-- Female Thrumbo -->
+        <li Class='PatchOperationReplace'>
+          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF']/tools</xpath>
+
+          <value>
+            <tools>
+              <li Class='CombatExtended.ToolCE'>
+                <label>horn</label>
+                <capacities>
+                  <li>Cut</li>
+                  <li>Stab</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>1.85</cooldownTime>
+                <chanceFactor>0.65</chanceFactor>
+                <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+                <armorPenetration>0.657</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <label>left foot</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.65</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+                <armorPenetration>0.163</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <label>right foot</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.65</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+                <armorPenetration>0.163</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <capacities>
+                  <li>Bite</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <armorPenetration>0.273</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <label>head</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.65</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+                <armorPenetration>0.125</armorPenetration>
+              </li>
+            </tools>
+          </value>
+        </li>
+
+        <!-- Male Thrumbo -->
+        <li Class='PatchOperationReplace'>
+          <xpath>Defs/ThingDef[defName=defName=OG_ThrumboRoyalM']/tools</xpath>
+
+          <value>
+            <tools>
+              <li Class='CombatExtended.ToolCE'>
+                <label>horn</label>
+                <capacities>
+                  <li>Cut</li>
+                  <li>Stab</li>
+                </capacities>
+                <power>36</power>
+                <cooldownTime>1.85</cooldownTime>
+                <chanceFactor>0.65</chanceFactor>
+                <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+                <armorPenetration>0.657</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <label>left foot</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.65</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+                <armorPenetration>0.163</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <label>right foot</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.65</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+                <armorPenetration>0.163</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <capacities>
+                  <li>Bite</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <armorPenetration>0.273</armorPenetration>
+              </li>
+              <li Class='CombatExtended.ToolCE'>
+                <label>head</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.65</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+                <armorPenetration>0.125</armorPenetration>
+              </li>
+            </tools>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
