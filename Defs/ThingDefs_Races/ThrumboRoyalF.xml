@@ -98,9 +98,27 @@
       <lifeExpectancy>320</lifeExpectancy>
       <hasGenders>false</hasGenders>
       <petness>1</petness>
-			<nameOnTameChance>1</nameOnTameChance>
-			<nuzzleMtbHours>16</nuzzleMtbHours>
-			<nameOnNuzzleChance>1</nameOnNuzzleChance>
+      <nameOnTameChance>1</nameOnTameChance>
+      <nuzzleMtbHours>16</nuzzleMtbHours>
+      <nameOnNuzzleChance>1</nameOnNuzzleChance>
+
+      <wildBiomes>
+        <!-- Warm Biomes -->
+        <TemperateForest>0.2</TemperateForest>
+        <TemperateSwamp>0.02</TemperateSwamp>
+        <TropicalRainforest>0.01</TropicalRainforest>
+        <TropicalSwamp>0.01</TropicalSwamp>
+        <!-- Hot Biomes -->
+        <AridShrubland>0.01</AridShrubland>
+        <Desert>0.01</Desert>
+        <ExtremeDesert>0</ExtremeDesert>
+        <!-- Cold Biomes -->
+        <BorealForest>0.03</BorealForest>
+        <Tundra>0.03</Tundra>
+        <ColdBog>0.03</ColdBog>
+        <SeaIce>0.02</SeaIce>
+        <IceSheet>0.01</IceSheet>
+      </wildBiomes>
 
       <lifeStageAges>
         <li>
