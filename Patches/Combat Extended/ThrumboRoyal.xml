@@ -22,7 +22,7 @@
         </li>
 
         <li Class='PatchOperationAdd'>
-          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/statBases</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalF' or defName = 'OG_ThrumboRoyalM']/statBases</xpath>
 
           <value>
             <MeleeDodgeChance>0.09</MeleeDodgeChance>
@@ -32,7 +32,7 @@
         </li>
 
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/statBases/ArmorRating_Blunt</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalF' or defName = 'OG_ThrumboRoyalM']/statBases/ArmorRating_Blunt</xpath>
 
           <value>
             <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
@@ -40,7 +40,7 @@
         </li>
 
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/statBases/ArmorRating_Sharp</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalF' or defName = 'OG_ThrumboRoyalM']/statBases/ArmorRating_Sharp</xpath>
 
           <value>
             <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
@@ -48,7 +48,7 @@
         </li>
 
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF' or defName='OG_ThrumboRoyalM']/race/baseHealthScale</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalF' or defName = 'OG_ThrumboRoyalM']/race/baseHealthScale</xpath>
 
           <value>
             <baseHealthScale>5</baseHealthScale>
@@ -57,7 +57,7 @@
 
         <!-- Female Thrumbo -->
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalF']/tools</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalF']/tools</xpath>
 
           <value>
             <tools>
@@ -119,7 +119,7 @@
 
         <!-- Male Thrumbo -->
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName=defName=OG_ThrumboRoyalM']/tools</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalM']/tools</xpath>
 
           <value>
             <tools>
