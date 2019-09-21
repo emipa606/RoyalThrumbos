@@ -2,7 +2,7 @@
 
 <Manifest>
   <identifier>RoyalThrumbos</identifier>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <manifestUri>https://raw.githubusercontent.com/Onigamii/RoyalThrumbos/master/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/Onigamii/RoyalThrumbos/releases/latest</downloadUri>
 </Manifest>

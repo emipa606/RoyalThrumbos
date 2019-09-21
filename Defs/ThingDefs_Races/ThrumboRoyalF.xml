@@ -3,8 +3,8 @@
 
   <ThingDef ParentName='AnimalThingBase'>
     <defName>OG_ThrumboRoyalF</defName>
-    <label>female royal thrumbo</label>
-    <description>These majestic creatures have been named royal thrumbos by rimworld residents who have encountered them. Even more rarely seen than a regular thrumbo, their porcelain-like horns fetch an absurd price from rarity collectors. Royal thrumbos also have luxurious fur that grows out slowly but can be sheared into a valuable wool, and also the female produces an exotic milk that is a rare delicacy.</description>
+    <label>royal thrumbo</label>
+    <description>These majestic creatures have been named royal thrumbos by rimworld residents who have encountered them. Even more rarely seen than a regular thrumbo, their porcelain-like horns fetch an absurd price from rarity collectors. Royal thrumbos also have luxurious fur that grows out slowly but can be sheared into a valuable wool, and the female produces an exotic milk that is a rare delicacy.</description>
 
     <statBases>
       <MoveSpeed>6.0</MoveSpeed>
@@ -101,23 +101,24 @@
       <nameOnTameChance>1</nameOnTameChance>
       <nuzzleMtbHours>16</nuzzleMtbHours>
       <nameOnNuzzleChance>1</nameOnNuzzleChance>
+      <nameGenerator>NamerAnimalGenericFemale</nameGenerator>
 
       <wildBiomes>
         <!-- Warm Biomes -->
-        <TemperateForest>0.2</TemperateForest>
-        <TemperateSwamp>0.02</TemperateSwamp>
-        <TropicalRainforest>0.01</TropicalRainforest>
-        <TropicalSwamp>0.01</TropicalSwamp>
+        <TemperateForest>0.001</TemperateForest>
+        <TemperateSwamp>0.001</TemperateSwamp>
+        <TropicalRainforest>0.001</TropicalRainforest>
+        <TropicalSwamp>0.001</TropicalSwamp>
         <!-- Hot Biomes -->
-        <AridShrubland>0.01</AridShrubland>
-        <Desert>0.01</Desert>
+        <AridShrubland>0</AridShrubland>
+        <Desert>0</Desert>
         <ExtremeDesert>0</ExtremeDesert>
         <!-- Cold Biomes -->
-        <BorealForest>0.03</BorealForest>
-        <Tundra>0.03</Tundra>
-        <ColdBog>0.03</ColdBog>
-        <SeaIce>0.02</SeaIce>
-        <IceSheet>0.01</IceSheet>
+        <BorealForest>0.001</BorealForest>
+        <Tundra>0.001</Tundra>
+        <ColdBog>0.001</ColdBog>
+        <SeaIce>0.001</SeaIce>
+        <IceSheet>0.001</IceSheet>
       </wildBiomes>
 
       <lifeStageAges>
@@ -164,9 +165,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Female/ThrumboRoyalF</texPath>
           <drawSize>2.5</drawSize>
+          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
+            <offset>(0, 0, -0.25)</offset>
           </shadowData>
         </bodyGraphicData>
 
@@ -179,9 +181,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Female/ThrumboRoyalF</texPath>
           <drawSize>4.0</drawSize>
+          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
-            <offset>(0,0,-0.25)</offset>
+            <offset>(0, 0, -0.35)</offset>
           </shadowData>
         </bodyGraphicData>
 
@@ -194,9 +197,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Female/ThrumboRoyalF</texPath>
           <drawSize>4.8</drawSize>
+          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
-            <offset>(0,0,-0.5)</offset>
+            <offset>(0, 0, -0.55)</offset>
           </shadowData>
         </bodyGraphicData>
 

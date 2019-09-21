@@ -9,17 +9,17 @@
 
     <graphicData>
       <texPath>Things/Item/Resource/RoyalLeather</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <!-- (217,181,148) -->
+      <graphicClass>Graphic_StackCount</graphicClass>
       <color>(240,225,205)</color>
     </graphicData>
 
     <statBases>
+      <Beauty>2</Beauty>
       <Mass>0.03</Mass>
       <Flammability>1</Flammability>
       <MarketValue>14.0</MarketValue>
-      <MaxHitPoints>60</MaxHitPoints>
-      <DeteriorationRate>2</DeteriorationRate>
+      <MaxHitPoints>100</MaxHitPoints>
+      <DeteriorationRate>1</DeteriorationRate>
       <StuffPower_Armor_Sharp>2.08</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
@@ -33,12 +33,12 @@
 
     <stuffProps>
       <color>(240,225,205)</color>
-      <commonality>0.025</commonality>
+      <commonality>0.015</commonality>
       <categories>
         <li>Leathery</li>
       </categories>
       <statFactors>
-        <MaxHitPoints>2.0</MaxHitPoints>
+        <MaxHitPoints>5.0</MaxHitPoints>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -54,6 +54,7 @@
     </graphicData>
 
     <statBases>
+       <Beauty>1</Beauty>
       <MarketValue>18.0</MarketValue>
       <DeteriorationRate>2.9</DeteriorationRate>
       <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>

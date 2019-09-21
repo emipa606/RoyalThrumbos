@@ -4,12 +4,10 @@ Adds two new majestic and fluffy creatures known as the royal thrumbos by those 
 
 Or you can just massacre them for their fur and horns. You monster.
 
-### Changelog
-
-**17 / Sep / 19** - Initial Release
-
 ### Credits
 
 **Goob** - Textures  
 **Aelanna** - Descriptions  
 **Thrumbo Extension** - Thrumbo milk
+
+### [External Download](https://github.com/onigamii/RoyalThrumbos/releases)
