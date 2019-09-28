@@ -27,7 +27,7 @@
           </xpath>
 
           <value>
-            <li>OG_ThrumboRoyal</li>
+            <li>OG_ThrumboRoyalM</li>
           </value>
         </li>
 
@@ -47,7 +47,7 @@
           </xpath>
 
           <value>
-            <li>OG_ThrumboRoyal</li>
+            <li>OG_ThrumboRoyalM</li>
           </value>
         </li>
 
@@ -56,7 +56,7 @@
           <xpath>Defs/RecipeDef[@Name = 'OldWoundsAnimal']/recipeUsers</xpath>
 
           <value>
-            <li>OG_ThrumboRoyal</li>
+            <li>OG_ThrumboRoyalM</li>
           </value>
         </li>
       </operations>

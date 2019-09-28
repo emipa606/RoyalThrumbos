@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName='AnimalThingBase'>
-    <defName>OG_ThrumboRoyal</defName>
+    <defName>OG_ThrumboRoyalM</defName>
     <label>royal thrumbo</label>
     <description>These majestic creatures have been named royal thrumbos by rimworld residents who have encountered them. Even more rarely seen than a regular thrumbo, their porcelain-like horns fetch an absurd price from rarity collectors. Royal thrumbos also have luxurious fur that grows out slowly but can be sheared into a valuable wool, and they also produce an exotic milk that is a rare delicacy.</description>
 
@@ -131,9 +131,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName='AnimalKindBase'>
-    <defName>OG_ThrumboRoyal</defName>
+    <defName>OG_ThrumboRoyalM</defName>
     <label>royal thrumbo</label>
-    <race>OG_ThrumboRoyal</race>
+    <race>OG_ThrumboRoyalM</race>
     <combatPower>500</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>1</ecoSystemWeight>

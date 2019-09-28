@@ -12,7 +12,7 @@
       <operations>
         <!-- Add Class -->
         <li Class='PatchOperationAddModExtension'>
-          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyal']</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalM']</xpath>
 
           <value>
             <li Class='CombatExtended.RacePropertiesExtensionCE'>
@@ -22,7 +22,7 @@
         </li>
 
         <li Class='PatchOperationAdd'>
-          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyal']/statBases</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalM']/statBases</xpath>
 
           <value>
             <MeleeDodgeChance>0.09</MeleeDodgeChance>
@@ -32,7 +32,7 @@
         </li>
 
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyal']/statBases/ArmorRating_Blunt</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalM']/statBases/ArmorRating_Blunt</xpath>
 
           <value>
             <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
@@ -40,7 +40,7 @@
         </li>
 
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyal']/statBases/ArmorRating_Sharp</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalM']/statBases/ArmorRating_Sharp</xpath>
 
           <value>
             <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
@@ -48,7 +48,7 @@
         </li>
 
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyal']/race/baseHealthScale</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalM']/race/baseHealthScale</xpath>
 
           <value>
             <baseHealthScale>5</baseHealthScale>
@@ -57,7 +57,7 @@
 
         <!-- Thrumbo -->
         <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyal']/tools</xpath>
+          <xpath>Defs/ThingDef[defName = 'OG_ThrumboRoyalM']/tools</xpath>
 
           <value>
             <tools>
