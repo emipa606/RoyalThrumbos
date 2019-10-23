@@ -94,7 +94,7 @@
       <gestationPeriodDays>60</gestationPeriodDays>
       <manhunterOnDamageChance>1.5</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
-      <wildness>1</wildness>
+      <wildness>0.995</wildness>
       <lifeExpectancy>320</lifeExpectancy>
       <petness>1</petness>
       <nameOnTameChance>1</nameOnTameChance>
