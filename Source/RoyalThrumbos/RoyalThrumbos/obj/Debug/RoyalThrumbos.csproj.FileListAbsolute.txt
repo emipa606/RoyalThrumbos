@@ -1,0 +1,4 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RoyalThrumbos\Source\RoyalThrumbos\RoyalThrumbos\bin\Debug\RoyalThrumbos.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RoyalThrumbos\Source\RoyalThrumbos\RoyalThrumbos\obj\Debug\RoyalThrumbos.csprojAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RoyalThrumbos\Source\RoyalThrumbos\RoyalThrumbos\obj\Debug\RoyalThrumbos.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RoyalThrumbos\Assemblies\RoyalThrumbos.dll

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Royal Thrumbo Pass -->
+  <IncidentDef>
+    <defName>RoyalThrumboPass</defName>
+    <label>royal thrumbos pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>RoyalThrumbos.IncidentWorker_RoyalThrumboPass</workerClass>
+    <baseChance>0.4</baseChance>
+    <minRefireDays>20</minRefireDays>
+  </IncidentDef>
+  
+</Defs>

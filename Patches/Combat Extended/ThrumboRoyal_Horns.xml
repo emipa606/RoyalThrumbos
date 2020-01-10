@@ -30,84 +30,15 @@
           </value>
         </li>
 
-        <!-- Female Horn -->
-        <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalHornF']/tools</xpath>
-
-          <value>
-            <tools>
-              <li Class='CombatExtended.ToolCE'>
-                <label>edge</label>
-                <capacities>
-                  <li>Cut</li>
-                </capacities>
-                <power>22</power>
-                <cooldownTime>1.55</cooldownTime>
-                <armorPenetration>0.195</armorPenetration>
-                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
-              </li>
-              <li Class='CombatExtended.ToolCE'>
-                <label>point</label>
-                <capacities>
-                  <li>Stab</li>
-                </capacities>
-                <power>22</power>
-                <cooldownTime>1.55</cooldownTime>
-                <armorPenetration>0.365</armorPenetration>
-                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
-              </li>
-              <li Class='CombatExtended.ToolCE'>
-                <label>base</label>
-                <capacities>
-                  <li>Blunt</li>
-                </capacities>
-                <power>9</power>
-                <cooldownTime>1.55</cooldownTime>
-                <armorPenetration>0.11</armorPenetration>
-                <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
-              </li>
-            </tools>
-          </value>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalHornF' or defName='OG_ThrumboRoyalHornF']/tools</xpath>
         </li>
 
-        <!-- Male Horn -->
-        <li Class='PatchOperationReplace'>
-          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalHornM']/tools</xpath>
-
-          <value>
-            <tools>
-              <li Class='CombatExtended.ToolCE'>
-                <label>edge</label>
-                <capacities>
-                  <li>Cut</li>
-                </capacities>
-                <power>28</power>
-                <cooldownTime>1.55</cooldownTime>
-                <armorPenetration>0.195</armorPenetration>
-                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
-              </li>
-              <li Class='CombatExtended.ToolCE'>
-                <label>point</label>
-                <capacities>
-                  <li>Stab</li>
-                </capacities>
-                <power>22</power>
-                <cooldownTime>1.55</cooldownTime>
-                <armorPenetration>0.365</armorPenetration>
-                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
-              </li>
-              <li Class='CombatExtended.ToolCE'>
-                <label>base</label>
-                <capacities>
-                  <li>Blunt</li>
-                </capacities>
-                <power>9</power>
-                <cooldownTime>1.55</cooldownTime>
-                <armorPenetration>0.11</armorPenetration>
-                <linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
-              </li>
-            </tools>
-          </value>
+        <li Class="PatchOperationAttributeSet">
+          <xpath>Defs/ThingDef[defName='OG_ThrumboRoyalHornF' or defName='OG_ThrumboRoyalHornF']</xpath>
+          
+          <attribute>ParentName</attribute>
+          <value>ResourceBase</value>
         </li>
       </operations>
     </match>
