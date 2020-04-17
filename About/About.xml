@@ -1,19 +1,16 @@
 <?xml version='1.0' encoding='utf-8' ?>
-
 <ModMetaData>
+  <packageId>Andross.RoyalThrumbos</packageId>
   <name>Royal Thrumbos</name>
   <author>Andross</author>
   <url></url>
   <supportedVersions>
     <li>1.0</li>
+		<li>1.1</li>
   </supportedVersions>
-  <description><![CDATA[Adds two new majestic and fluffy creatures known as the royal thrumbos by those few that have seen them. Mostly spotted around cold and temperate biomes due to their ability to withstand amazingly cold environments but less hot enviroments than a normal thrumbo. These adorable, majestic animals can be cuddled, sheared for their comfortable and expensive wool, or milked for their mood-enhancing, ambrosia-like milk.
+  <description>
+<![CDATA[Adds two new majestic and fluffy creatures known as the royal thrumbos by those few that have seen them. Mostly spotted around cold and temperate biomes due to their ability to withstand amazingly cold environments but less hot enviroments than a normal thrumbo. These adorable, majestic animals can be cuddled, sheared for their comfortable and expensive wool, or milked for their mood-enhancing, ambrosia-like milk.
 
-Or you can just massacre them for their fur and horns. You monster.
-  
-<color='#5aa9d6'>Credits</color>
-<b>Goob</b> - Textures
-<b>Aelanna</b> - Description
-<b>Thrumbo Extension</b> - Thrumbo milk]]>
+Or you can just massacre them for their fur and horns. You monster]]>
   </description>
 </ModMetaData>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Defs>
+  <!-- Female Thrumbo Horn -->
+  <ThingDef ParentName='ResourceVerbBase'>
+    <defName>OG_ThrumboRoyalHornF</defName>
+    <label>female royal thrumbo horn</label>
+    <description>A female royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+    
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+
+    <graphicData>
+      <texPath>Things/Item/Special/RoyalHornF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+
+    <statBases>
+      <MarketValue>1600</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Male Thrumbo Horn -->
+  <ThingDef ParentName='ResourceVerbBase'>
+    <defName>OG_ThrumboRoyalHornM</defName>
+    <label>male royal thrumbo horn</label>
+    <description>A male royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+  
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+
+    <graphicData>
+      <texPath>Things/Item/Special/RoyalHornM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+
+    <statBases>
+      <MarketValue>1600</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>
