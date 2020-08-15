@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <!-- Royal Thrumbo Leather -->
-  <ThingDef ParentName='ResourceBase'>
+  <ThingDef ParentName="ResourceBase">
     <defName>OG_ThrumboRoyalLeather</defName>
     <label>royal thrumbofur</label>
     <description>Furry pelt of a thrumbo. Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</description>
@@ -44,7 +44,7 @@
   </ThingDef>
 
   <!-- Royal Thrumbo Wool -->
-  <ThingDef ParentName='WoolBase'>
+  <ThingDef ParentName="WoolBase">
     <defName>OG_ThrumboRoyalWool</defName>
     <label>royal thrumbo wool</label>
     <description>The remarkably soft and delicate wool of a royal thrumbo. It is very warm.</description>
@@ -67,7 +67,7 @@
   </ThingDef>
 
   <!-- Royal Thrumbo Milk -->
-  <ThingDef ParentName='OrganicProductBase'>
+  <ThingDef ParentName="OrganicProductBase">
     <defName>OG_ThrumboRoyalMilk</defName>
     <label>royal thrumbo milk</label>
     <description>Milk of a royal thrumbo.</description>
@@ -87,7 +87,7 @@
     </statBases>
 
     <comps>
-      <li Class='CompProperties_Rottable'>
+      <li Class="CompProperties_Rottable">
         <daysToRotStart>14</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
@@ -101,7 +101,7 @@
       <foodType>AnimalProduct, Fluid</foodType>
 
       <outcomeDoers>
-        <li Class='IngestionOutcomeDoer_GiveHediff'>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>OG_ThrumboRoyalMilkNourish</hediffDef>
           <severity>1.0</severity>
         </li>
@@ -122,7 +122,7 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class='HediffCompProperties_SeverityPerDay'>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.45</severityPerDay>
       </li>
     </comps>

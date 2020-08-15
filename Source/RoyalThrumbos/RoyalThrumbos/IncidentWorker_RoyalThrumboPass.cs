@@ -13,7 +13,7 @@ namespace RoyalThrumbos
       {
         return false;
       }
-      if (!map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef_RoyalThrumbo.OG_ThrumboRoyalM))
+      if (!map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef_RoyalThrumbo.RoyalThrumbo))
       {
         return false;
       }
@@ -28,7 +28,7 @@ namespace RoyalThrumbos
       {
         return false;
       }
-      PawnKindDef RoyalThrumbo = PawnKindDef_RoyalThrumbo.OG_ThrumboRoyalM;
+      PawnKindDef RoyalThrumbo = PawnKindDef_RoyalThrumbo.RoyalThrumbo;
       float num = StorytellerUtility.DefaultThreatPointsNow(map);
       int value = GenMath.RoundRandom(num / RoyalThrumbo.combatPower);
       int max = Rand.RangeInclusive(2, 4);

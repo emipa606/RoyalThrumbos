@@ -7,12 +7,10 @@
     </mods>
 
     <match Class="PatchOperationSequence">
-      <success>Always</success>
-
       <operations>
         <!-- Add Class -->
         <li Class="PatchOperationAddModExtension">
-          <xpath>Defs/ThingDef[defName = "OG_ThrumboRoyalM"]</xpath>
+          <xpath>/Defs/ThingDef[defName="RoyalThrumbo"]</xpath>
 
           <value>
             <li Class="CombatExtended.RacePropertiesExtensionCE">
@@ -22,7 +20,7 @@
         </li>
 
         <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName = "OG_ThrumboRoyalM"]/statBases</xpath>
+          <xpath>/Defs/ThingDef[defName="RoyalThrumbo"]/statBases</xpath>
 
           <value>
             <MeleeDodgeChance>0.09</MeleeDodgeChance>
@@ -33,7 +31,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName = "OG_ThrumboRoyalM"]/statBases/ArmorRating_Blunt</xpath>
+          <xpath>/Defs/ThingDef[defName="RoyalThrumbo"]/statBases/ArmorRating_Blunt</xpath>
 
           <value>
             <ArmorRating_Blunt>25</ArmorRating_Blunt>
@@ -41,7 +39,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName = "OG_ThrumboRoyalM"]/statBases/ArmorRating_Sharp</xpath>
+          <xpath>/Defs/ThingDef[defName="RoyalThrumbo"]/statBases/ArmorRating_Sharp</xpath>
 
           <value>
             <ArmorRating_Sharp>18</ArmorRating_Sharp>
@@ -49,7 +47,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName = "OG_ThrumboRoyalM"]/race/baseHealthScale</xpath>
+          <xpath>/Defs/ThingDef[defName="RoyalThrumbo"]/race/baseHealthScale</xpath>
 
           <value>
             <baseHealthScale>5</baseHealthScale>
@@ -57,7 +55,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName = "OG_ThrumboRoyalM"]/combatPower</xpath>
+          <xpath>/Defs/ThingDef[defName="RoyalThrumbo"]/combatPower</xpath>
 
           <value>
             <combatPower>450</combatPower>
@@ -66,7 +64,7 @@
 
         <!-- Thrumbo -->
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName = "OG_ThrumboRoyalM"]/tools</xpath>
+          <xpath>/Defs/ThingDef[defName="RoyalThrumbo"]/tools</xpath>
 
           <value>
             <tools>
@@ -78,7 +76,8 @@
                 <power>46</power>
                 <cooldownTime>2.52</cooldownTime>
                 <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-                <armorPenetration>0.657</armorPenetration>
+                <armorPenetrationSharp>0.54</armorPenetrationSharp>
+                <armorPenetrationBlunt>4</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
                 <label>horn</label>
@@ -89,7 +88,8 @@
                 <cooldownTime>2.52</cooldownTime>
                 <chanceFactor>0.65</chanceFactor>
                 <linkedBodyPartsGroup>HornAttackTool_2</linkedBodyPartsGroup>
-                <armorPenetration>0.657</armorPenetration>
+                <armorPenetrationSharp>8</armorPenetrationSharp>
+                <armorPenetrationBlunt>4</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
                 <label>left foot</label>
@@ -99,7 +99,7 @@
                 <power>21</power>
                 <cooldownTime>2.33</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-                <armorPenetration>0.163</armorPenetration>
+                <armorPenetrationBlunt>8.640</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
                 <label>right foot</label>
@@ -109,7 +109,7 @@
                 <power>21</power>
                 <cooldownTime>2.33</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-                <armorPenetration>0.163</armorPenetration>
+                <armorPenetrationBlunt>8.640</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
                 <capacities>
@@ -118,7 +118,8 @@
                 <power>19</power>
                 <cooldownTime>1.62</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <armorPenetration>0.273</armorPenetration>
+                <armorPenetrationSharp>0.03</armorPenetrationSharp>
+                <armorPenetrationBlunt>2.016</armorPenetrationBlunt>
               </li>
               <li Class="CombatExtended.ToolCE">
                 <label>head</label>
@@ -129,7 +130,7 @@
                 <cooldownTime>2.52</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <chanceFactor>0.2</chanceFactor>
-                <armorPenetration>0.125</armorPenetration>
+                <armorPenetrationBlunt>4</armorPenetrationBlunt>
               </li>
             </tools>
           </value>

@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Female Thrumbo Horn -->
-  <ThingDef ParentName='ResourceVerbBase'>
+  <ThingDef ParentName="ResourceVerbBase">
     <defName>OG_ThrumboRoyalHornF</defName>
     <label>female royal thrumbo horn</label>
-    <description>A female royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+    <description>A female royal thrumbo"s horn. It"s razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
     
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
@@ -57,10 +57,10 @@
   </ThingDef>
 
   <!-- Male Thrumbo Horn -->
-  <ThingDef ParentName='ResourceVerbBase'>
+  <ThingDef ParentName="ResourceVerbBase">
     <defName>OG_ThrumboRoyalHornM</defName>
     <label>male royal thrumbo horn</label>
-    <description>A male royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+    <description>A male royal thrumbo"s horn. It"s razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
   
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>

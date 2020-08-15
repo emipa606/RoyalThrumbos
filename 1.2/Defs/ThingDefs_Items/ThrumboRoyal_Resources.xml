@@ -2,8 +2,8 @@
 <Defs>
 
   <!-- Royal Thrumbo Leather -->
-  <ThingDef ParentName="ResourceBase">
-    <defName>OG_ThrumboRoyalLeather</defName>
+  <ThingDef ParentName="LeatherBase">
+    <defName>RoyalThrumbo_Leather</defName>
     <label>royal thrumbofur</label>
     <description>Furry pelt of a royal thrumbo. Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</description>
 
@@ -22,20 +22,13 @@
       <StuffPower_Armor_Sharp>2.08</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+      <StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
     </statBases>
-
-    <thingCategories>
-      <li>Leathers</li>
-    </thingCategories>
 
     <stuffProps>
       <color>(240,225,205)</color>
       <commonality>0.015</commonality>
-      <categories>
-        <li>Leathery</li>
-      </categories>
       <statFactors>
         <Beauty>12</Beauty>
         <MaxHitPoints>5.0</MaxHitPoints>
@@ -45,7 +38,7 @@
 
   <!-- Royal Thrumbo Wool -->
   <ThingDef ParentName="WoolBase">
-    <defName>OG_ThrumboRoyalWool</defName>
+    <defName>RoyalThrumbo_Wool</defName>
     <label>royal thrumbo wool</label>
     <description>The remarkably soft and delicate wool of a royal thrumbo. It is very warm.</description>
 
@@ -63,14 +56,14 @@
     <stuffProps>
       <color>(240,225,205)</color>
       <statFactors>
-        <Beauty>1</Beauty>
+        <Beauty>2.5</Beauty>
       </statFactors>
     </stuffProps>
   </ThingDef>
 
   <!-- Royal Thrumbo Milk -->
   <ThingDef ParentName="OrganicProductBase">
-    <defName>OG_ThrumboRoyalMilk</defName>
+    <defName>RoyalThrumbo_Milk</defName>
     <label>royal thrumbo milk</label>
     <description>Milk of a royal thrumbo.</description>
     <socialPropernessMatters>true</socialPropernessMatters>
@@ -104,7 +97,7 @@
 
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>OG_ThrumboRoyalMilkNourish</hediffDef>
+          <hediffDef>RoyalThrumbo_MilkNourish</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
@@ -116,7 +109,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>OG_ThrumboRoyalMilkNourish</defName>
+    <defName>RoyalThrumbo_MilkNourish</defName>
     <label>royal thrumbo milk</label>
     <description>Enjoyed the fresh milk of a royal thrumbo</description>
     <hediffClass>HediffWithComps</hediffClass>

@@ -7,13 +7,10 @@
     </mods>
 
     <match Class="PatchOperationSequence">
-      <success>Always</success>
-
       <operations>
-
         <!-- Thrumbo Horn -->
         <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornF"]/statBases</xpath>
+          <xpath>/Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornM"]/statBases</xpath>
           <value>
             <Bulk>10</Bulk>
             <MeleeCounterParryBonus>2</MeleeCounterParryBonus>
@@ -21,7 +18,7 @@
         </li>
 
         <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornF"]</xpath>
+          <xpath>/Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornM"]</xpath>
           <value>
             <equippedStatOffsets>
               <MeleeCritChance>1</MeleeCritChance>
@@ -31,12 +28,11 @@
         </li>
 
         <li Class="PatchOperationRemove">
-          <xpath>Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornF"]/tools</xpath>
+          <xpath>/Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornM"]/tools</xpath>
         </li>
 
         <li Class="PatchOperationAttributeSet">
-          <xpath>Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornF"]</xpath>
-          
+          <xpath>/Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornM"]</xpath>
           <attribute>ParentName</attribute>
           <value>ResourceBase</value>
         </li>

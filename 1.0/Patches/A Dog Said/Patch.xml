@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-  <Operation Class='PatchOperationFindMod'>
+  <Operation Class="PatchOperationFindMod">
     <mods>
       <li>A Dog Said... Animal Prosthetics</li>
     </mods>
 
-    <match Class='PatchOperationSequence'>
+    <match Class="PatchOperationSequence">
       <success>Always</success>
 
       <operations>
         <!-- Body Parts -->
-        <li Class='PatchOperationAdd'>
+        <li Class="PatchOperationAdd">
           <xpath>
           Defs/RecipeDef[
-            defName = 'InstallNoseAnimalSimple' or
-            defName = 'InstallEarAnimalSimple' or
-            defName = 'InstallEarAnimalBionic' or
-            defName = 'InstallPowerClawAnimal' or
-            defName = 'InstallPegLegAnimal' or
-            defName = 'InstallSimpleProstheticLegAnimal' or
-            defName = 'InstallBionicLegAnimal' or
-            defName = 'InstallJawAnimalSimple' or
-            defName = 'InstallJawAnimalBionic' or
-            defName = 'InstallSimpleProstheticTailAnimal']/recipeUsers
+            defName = "InstallNoseAnimalSimple" or
+            defName = "InstallEarAnimalSimple" or
+            defName = "InstallEarAnimalBionic" or
+            defName = "InstallPowerClawAnimal" or
+            defName = "InstallPegLegAnimal" or
+            defName = "InstallSimpleProstheticLegAnimal" or
+            defName = "InstallBionicLegAnimal" or
+            defName = "InstallJawAnimalSimple" or
+            defName = "InstallJawAnimalBionic" or
+            defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers
           </xpath>
 
           <value>
@@ -32,18 +32,18 @@
         </li>
 
         <!-- Internals-->
-        <li Class='PatchOperationAdd'>
+        <li Class="PatchOperationAdd">
           <xpath>
           Defs/RecipeDef[
-            defName = 'InstallSpineAnimalSimple' or
-            defName = 'InstallSpineAnimalBionic' or
-            defName = 'InstallAnimalBrainStimulator' or
-            defName = 'InstallBionicAnimalHeart' or 
-            defName = 'InstallBionicAnimalLung' or 
-            defName = 'InstallBionicAnimalLiver' or 
-            defName = 'InstallBionicAnimalKidney' or
-            defName = 'InstallBionicAnimalStomach' or
-            defName = 'InstallBionicEyeAnimal']/recipeUsers
+            defName = "InstallSpineAnimalSimple" or
+            defName = "InstallSpineAnimalBionic" or
+            defName = "InstallAnimalBrainStimulator" or
+            defName = "InstallBionicAnimalHeart" or 
+            defName = "InstallBionicAnimalLung" or 
+            defName = "InstallBionicAnimalLiver" or 
+            defName = "InstallBionicAnimalKidney" or
+            defName = "InstallBionicAnimalStomach" or
+            defName = "InstallBionicEyeAnimal"]/recipeUsers
           </xpath>
 
           <value>
@@ -52,8 +52,8 @@
         </li>
 
         <!-- Old Wounds -->
-        <li Class='PatchOperationAdd'>
-          <xpath>Defs/RecipeDef[@Name = 'OldWoundsAnimal']/recipeUsers</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
 
           <value>
             <li>OG_ThrumboRoyalM</li>

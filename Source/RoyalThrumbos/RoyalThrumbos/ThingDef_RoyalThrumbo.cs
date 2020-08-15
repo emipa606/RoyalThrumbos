@@ -11,6 +11,6 @@ namespace RoyalThrumbos
       DefOfHelper.EnsureInitializedInCtor(typeof(ThingDef_RoyalThrumbo));
     }
 
-    public static ThingDef OG_ThrumboRoyalM;
+    public static ThingDef RoyalThrumbo;
   }
 }
