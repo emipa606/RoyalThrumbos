@@ -55,7 +55,7 @@
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="OG_ThrumboRoyalM"]/combatPower</xpath>
+          <xpath>Defs/PawnKindDef[defName="OG_ThrumboRoyalM"]/combatPower</xpath>
 
           <value>
             <combatPower>450</combatPower>
