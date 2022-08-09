@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Combat Extended</li>
     </mods>
-
     <match Class="PatchOperationSequence">
       <operations>
         <!-- Thrumbo Horn -->
@@ -16,7 +14,6 @@
             <MeleeCounterParryBonus>2</MeleeCounterParryBonus>
           </value>
         </li>
-
         <li Class="PatchOperationAdd">
           <xpath>/Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornM"]</xpath>
           <value>
@@ -26,11 +23,9 @@
             </equippedStatOffsets>
           </value>
         </li>
-
         <li Class="PatchOperationRemove">
           <xpath>/Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornM"]/tools</xpath>
         </li>
-
         <li Class="PatchOperationAttributeSet">
           <xpath>/Defs/ThingDef[defName="OG_ThrumboRoyalHornF" or defName="OG_ThrumboRoyalHornM"]</xpath>
           <attribute>ParentName</attribute>
@@ -39,5 +34,4 @@
       </operations>
     </match>
   </Operation>
-
 </Patch>

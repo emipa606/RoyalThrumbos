@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>A Dog Said... Animal Prosthetics</li>
     </mods>
-
     <match Class="PatchOperationSequence">
       <success>Always</success>
-
       <operations>
         <!-- Body Parts -->
         <li Class="PatchOperationAdd">
@@ -25,12 +22,10 @@
             defName = "InstallJawAnimalBionic" or
             defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers
           </xpath>
-
           <value>
             <li>OG_ThrumboRoyalM</li>
           </value>
         </li>
-
         <!-- Internals-->
         <li Class="PatchOperationAdd">
           <xpath>
@@ -45,16 +40,13 @@
             defName = "InstallBionicAnimalStomach" or
             defName = "InstallBionicEyeAnimal"]/recipeUsers
           </xpath>
-
           <value>
             <li>OG_ThrumboRoyalM</li>
           </value>
         </li>
-
         <!-- Old Wounds -->
         <li Class="PatchOperationAdd">
           <xpath>Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
-
           <value>
             <li>OG_ThrumboRoyalM</li>
           </value>
@@ -62,5 +54,4 @@
       </operations>
     </match>
   </Operation>
-
 </Patch>

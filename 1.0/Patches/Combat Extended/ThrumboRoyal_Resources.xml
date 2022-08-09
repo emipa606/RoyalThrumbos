@@ -1,27 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Combat Extended</li>
     </mods>
-
     <match Class="PatchOperationSequence">
       <success>Always</success>
-
       <operations>
         <!-- Thrumbofur -->
         <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="OG_ThrumboRoyalLeather"]/statBases/StuffPower_Armor_Sharp</xpath>
-
           <value>
             <StuffPower_Armor_Sharp>0.95</StuffPower_Armor_Sharp>
           </value>
         </li>
-
         <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="OG_ThrumboRoyalLeather"]/statBases/StuffPower_Armor_Blunt</xpath>
-
           <value>
             <StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
           </value>
@@ -29,5 +23,4 @@
       </operations>
     </match>
   </Operation>
-
 </Patch>

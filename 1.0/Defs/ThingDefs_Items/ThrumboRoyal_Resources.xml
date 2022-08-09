@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- Royal Thrumbo Leather -->
   <ThingDef ParentName="ResourceBase">
     <defName>OG_ThrumboRoyalLeather</defName>
     <label>royal thrumbofur</label>
     <description>Furry pelt of a thrumbo. Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</description>
-
     <graphicData>
       <texPath>Things/Item/Resource/RoyalLeather</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(240,225,205)</color>
     </graphicData>
-
     <statBases>
       <Beauty>2</Beauty>
       <Mass>0.03</Mass>
@@ -26,11 +23,9 @@
       <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
     </statBases>
-
     <thingCategories>
       <li>Leathers</li>
     </thingCategories>
-
     <stuffProps>
       <color>(240,225,205)</color>
       <commonality>0.015</commonality>
@@ -42,41 +37,34 @@
       </statFactors>
     </stuffProps>
   </ThingDef>
-
   <!-- Royal Thrumbo Wool -->
   <ThingDef ParentName="WoolBase">
     <defName>OG_ThrumboRoyalWool</defName>
     <label>royal thrumbo wool</label>
     <description>The remarkably soft and delicate wool of a royal thrumbo. It is very warm.</description>
-
     <graphicData>
       <color>(240,225,205)</color>
     </graphicData>
-
     <statBases>
-       <Beauty>1</Beauty>
+      <Beauty>1</Beauty>
       <MarketValue>18.0</MarketValue>
       <DeteriorationRate>2.9</DeteriorationRate>
       <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
     </statBases>
-
     <stuffProps>
       <color>(240,225,205)</color>
     </stuffProps>
   </ThingDef>
-
   <!-- Royal Thrumbo Milk -->
   <ThingDef ParentName="OrganicProductBase">
     <defName>OG_ThrumboRoyalMilk</defName>
     <label>royal thrumbo milk</label>
     <description>Milk of a royal thrumbo.</description>
     <socialPropernessMatters>true</socialPropernessMatters>
-
     <graphicData>
       <texPath>Things/Item/Resource/Milk</texPath>
     </graphicData>
-
     <statBases>
       <Mass>0.6</Mass>
       <Nutrition>6.0</Nutrition>
@@ -85,21 +73,18 @@
       <Flammability>0.2</Flammability>
       <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
     </statBases>
-
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>14</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
-
     <ingestible>
       <preferability>MealLavish</preferability>
       <tasteThought>AteLavishMeal</tasteThought>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Ingest_Beer</ingestSound>
       <foodType>AnimalProduct, Fluid</foodType>
-
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>OG_ThrumboRoyalMilkNourish</hediffDef>
@@ -107,12 +92,10 @@
         </li>
       </outcomeDoers>
     </ingestible>
-
     <thingCategories>
       <li>AnimalProductRaw</li>
     </thingCategories>
   </ThingDef>
-
   <HediffDef>
     <defName>OG_ThrumboRoyalMilkNourish</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -142,5 +125,4 @@
       </li>
     </stages>
   </HediffDef>
-
 </Defs>

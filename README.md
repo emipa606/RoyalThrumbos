@@ -1,13 +1,41 @@
-# Royal Thrumbos
+# RoyalThrumbos
+
+![Image](https://i.imgur.com/buuPQel.png)
 
-Adds two new majestic and fluffy creatures known as the royal thrumbos by those few that have seen them. Mostly spotted around cold and temperate biomes due to their ability to withstand amazingly cold environments but less hot enviroments than a normal thrumbo. These adorable, majestic animals can be cuddled, sheared for their comfortable and expensive wool, or milked for their mood enhancing, ambrosia-like milk.
+Update of Androsss mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1865990377
 
-Or you can just massacre them for their fur. You monster.
+- Will no longer eat Gauranlen Trees
 
-### Credits
+![Image](https://i.imgur.com/pufA0kM.png)
 
-**Goob** - Textures  
-**Aelanna** - Descriptions  
-**Thrumbo Extension** - Thrumbo milk
+	
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
-### [External Download](https://github.com/onigamii/RoyalThrumbos/releases)
+The Royal Thrumbos Mod adds new majestic and fluffy creatures known as the royal thrumbos by those few that have seen them. 
+Mostly spotted mainly around cold and temperate biomes due ato their ability to withstand amazingly cold environments but not so much hot environments than a normal thrumbo. 
+These adorable, majestic animals can be cuddled, sheared for their comfortable and expensive wool, and females can be milked for their mood-enhancing, ambrosia-like milk.
+
+Or you can just massacre them for their fur and horns. You monster.
+
+Compatible with
+A Dog Said
+Combat Extended
+Giddy-Up
+
+Credits
+Erin – New Textures
+Goob – Original Textures
+
+![Image](https://i.imgur.com/PwoNOj4.png)
+
+
+
+-  See if the the error persists if you just have this mod and its requirements active.
+-  If not, try adding your other mods until it happens again.
+-  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  For best support, please use the Discord-channel for error-reporting.
+-  Do not report errors by making a discussion-thread, I get no notification of that.
+-  If you have the solution for a problem, please post it to the GitHub repository.
+
+
