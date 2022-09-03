@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceVerbBase">
     <defName>RoyalThrumbo_HornFemale</defName>
     <label>female royal thrumbo horn</label>
-    <description>A female royal thrumbo"s horn. It"s razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+    <description>A female royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
     <graphicData>
@@ -52,7 +52,7 @@
   <ThingDef ParentName="ResourceVerbBase">
     <defName>RoyalThrumbo_HornMale</defName>
     <label>male royal thrumbo horn</label>
-    <description>A male royal thrumbo"s horn. It"s razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+    <description>A male royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
     <graphicData>

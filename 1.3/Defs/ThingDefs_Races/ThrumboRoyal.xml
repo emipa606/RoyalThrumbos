@@ -218,6 +218,10 @@
           <texPath>Things/Pawn/Animal/Female/ThrumboRoyalF_Dessicated</texPath>
           <drawSize>4.8</drawSize>
         </femaleDessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>RoyalThrumbo_HornMale</thing>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
