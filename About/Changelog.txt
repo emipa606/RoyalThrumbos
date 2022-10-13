@@ -1,5 +1,8 @@
 # Changelog for RoyalThrumbos
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.2 - Thrumbos now drop horns when butchering, added harmony-requirement to be able to drop gender-specific horns
 
 

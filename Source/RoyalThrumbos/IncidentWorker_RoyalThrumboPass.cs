@@ -14,12 +14,8 @@ public class IncidentWorker_RoyalThrumboPass : IncidentWorker
             return false;
         }
 
-        if (!map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef_RoyalThrumbo.RoyalThrumbo))
-        {
-            return false;
-        }
-
-        return TryFindEntryCell(map, out _);
+        return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef_RoyalThrumbo.RoyalThrumbo) &&
+               TryFindEntryCell(map, out _);
     }
 
     protected override bool TryExecuteWorker(IncidentParms parms)

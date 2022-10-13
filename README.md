@@ -6,6 +6,7 @@ Update of Androsss mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1865990377
 
 - Will no longer eat Gauranlen Trees
+- Thrumbos will now drop the horns when butchering. Had to add Harmony as dependency as the game does not allow different butcher-products per gender.
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

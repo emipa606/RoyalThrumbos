@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- Thrumbo Horn -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="RoyalThrumbo_HornFemale" or defName="RoyalThrumbo_HornMale"]/statBases</xpath>
+          <value>
+            <Bulk>10</Bulk>
+            <MeleeCounterParryBonus>2</MeleeCounterParryBonus>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="RoyalThrumbo_HornFemale" or defName="RoyalThrumbo_HornMale"]</xpath>
+          <value>
+            <equippedStatOffsets>
+              <MeleeCritChance>1</MeleeCritChance>
+              <MeleeParryChance>0.5</MeleeParryChance>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="RoyalThrumbo_HornFemale" or defName="RoyalThrumbo_HornMale"]/tools</xpath>
+        </li>
+        <li Class="PatchOperationAttributeSet">
+          <xpath>Defs/ThingDef[defName="RoyalThrumbo_HornFemale" or defName="RoyalThrumbo_HornMale"]</xpath>
+          <attribute>ParentName</attribute>
+          <value>ResourceBase</value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
