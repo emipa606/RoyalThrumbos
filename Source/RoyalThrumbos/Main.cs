@@ -7,7 +7,7 @@ namespace RoyalThrumbos;
 [StaticConstructorOnStartup]
 public static class Main
 {
-    public static ThingDef FemaleHorn;
+    public static readonly ThingDef FemaleHorn;
 
     static Main()
     {
