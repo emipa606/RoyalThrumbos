@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>be876aaa-076c-4624-9675-1702329f546a</ID>
   <ModName>Royal Thrumbos (Continued)</ModName>
-  <Version>1.5.0</Version>
+  <Version>1.5.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,3 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+
