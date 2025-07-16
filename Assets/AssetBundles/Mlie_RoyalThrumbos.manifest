@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 4049626638
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 77f1dd769a0664d1cd4da7130b1384e5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 77f1dd769a0664d1cd4da7130b1384e5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Female/ThrumboRoyalF_east.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Female/ThrumboRoyalF_south.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Male/ThrumboRoyalM_south.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Male/ThrumboRoyalM_east.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Item/Special/RoyalHornF.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Female/ThrumboRoyalF_Dessicated_east.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Item/Resource/RoyalLeather/RoyalLeather_b.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Item/Resource/RoyalLeather/RoyalLeather_a.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Item/Special/RoyalHornM.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Male/ThrumboRoyalM_Dessicated_east.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Female/ThrumboRoyalF_north.png
+- Assets/Data/Mlie.RoyalThrumbos/Textures/Things/Pawn/Animal/Male/ThrumboRoyalM_north.png
+Dependencies: []

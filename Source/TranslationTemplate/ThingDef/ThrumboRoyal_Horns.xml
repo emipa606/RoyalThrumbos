@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: female royal thrumbo horn -->
+  <RoyalThrumbo_HornFemale.label>female royal thrumbo horn</RoyalThrumbo_HornFemale.label>
+  <!-- EN: A female royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon. -->
+  <RoyalThrumbo_HornFemale.description>A female royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</RoyalThrumbo_HornFemale.description>
+  <!-- EN: point -->
+  <RoyalThrumbo_HornFemale.tools.point.label>point</RoyalThrumbo_HornFemale.tools.point.label>
+  <!-- EN: base -->
+  <RoyalThrumbo_HornFemale.tools.base.label>base</RoyalThrumbo_HornFemale.tools.base.label>
+  <!-- EN: male royal thrumbo horn -->
+  <RoyalThrumbo_HornMale.label>male royal thrumbo horn</RoyalThrumbo_HornMale.label>
+  <!-- EN: A male royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon. -->
+  <RoyalThrumbo_HornMale.description>A male royal thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</RoyalThrumbo_HornMale.description>
+  <!-- EN: point -->
+  <RoyalThrumbo_HornMale.tools.point.label>point</RoyalThrumbo_HornMale.tools.point.label>
+  <!-- EN: base -->
+  <RoyalThrumbo_HornMale.tools.base.label>base</RoyalThrumbo_HornMale.tools.base.label>
+</LanguageData>

@@ -15,19 +15,19 @@ public class IncidentWorker_RoyalThrumboPass : IncidentWorker
         }
 
         return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef_RoyalThrumbo.RoyalThrumbo) &&
-               TryFindEntryCell(map, out _);
+               tryFindEntryCell(map, out _);
     }
 
     protected override bool TryExecuteWorker(IncidentParms parms)
     {
         var map = (Map)parms.target;
-        if (!TryFindEntryCell(map, out var cell))
+        if (!tryFindEntryCell(map, out var cell))
         {
             return false;
         }
 
-        var RoyalThrumbo = PawnKindDef_RoyalThrumbo.RoyalThrumbo;
-        var value = GenMath.RoundRandom(StorytellerUtility.DefaultThreatPointsNow(map) / RoyalThrumbo.combatPower);
+        var royalThrumbo = PawnKindDef_RoyalThrumbo.RoyalThrumbo;
+        var value = GenMath.RoundRandom(StorytellerUtility.DefaultThreatPointsNow(map) / royalThrumbo.combatPower);
         var max = Rand.RangeInclusive(3, 6);
         value = Mathf.Clamp(value, 2, max);
         var num2 = Rand.RangeInclusive(90000, 150000);
@@ -40,7 +40,7 @@ public class IncidentWorker_RoyalThrumboPass : IncidentWorker
         for (var i = 0; i < value; i++)
         {
             var loc = CellFinder.RandomClosewalkCellNear(cell, map, 10);
-            pawn = PawnGenerator.GeneratePawn(RoyalThrumbo);
+            pawn = PawnGenerator.GeneratePawn(royalThrumbo);
             GenSpawn.Spawn(pawn, loc, map, Rot4.Random);
             pawn.mindState.exitMapAfterTick = Find.TickManager.TicksGame + num2;
             if (result.IsValid)
@@ -49,12 +49,12 @@ public class IncidentWorker_RoyalThrumboPass : IncidentWorker
             }
         }
 
-        Find.LetterStack.ReceiveLetter("LetterLabelThrumboPasses".Translate(RoyalThrumbo.label).CapitalizeFirst(),
-            "LetterThrumboPasses".Translate(RoyalThrumbo.label), LetterDefOf.PositiveEvent, pawn);
+        Find.LetterStack.ReceiveLetter("LetterLabelThrumboPasses".Translate(royalThrumbo.label).CapitalizeFirst(),
+            "LetterThrumboPasses".Translate(royalThrumbo.label), LetterDefOf.PositiveEvent, pawn);
         return true;
     }
 
-    private bool TryFindEntryCell(Map map, out IntVec3 cell)
+    private static bool tryFindEntryCell(Map map, out IntVec3 cell)
     {
         return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f);
     }

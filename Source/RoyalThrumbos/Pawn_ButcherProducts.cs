@@ -4,7 +4,7 @@ using Verse;
 
 namespace RoyalThrumbos;
 
-[HarmonyPatch(typeof(Pawn), "ButcherProducts")]
+[HarmonyPatch(typeof(Pawn), nameof(Pawn.ButcherProducts))]
 public static class Pawn_ButcherProducts
 {
     public static IEnumerable<Thing> Postfix(IEnumerable<Thing> values, Pawn __instance)
